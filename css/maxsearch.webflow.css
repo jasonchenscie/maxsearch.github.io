@@ -621,7 +621,7 @@
 }
 
 .version-text {
-  margin-top: 3%;
+  margin-top: 1%;
   margin-bottom: 0px;
   font-family: proxima-nova, sans-serif;
   color: #fff;
@@ -637,8 +637,16 @@
   font-weight: 300;
 }
 
+.price-info.free {
+  margin-top: 1%;
+}
+
 .buy-now {
   margin-top: 5%;
+}
+
+.buy-now.free {
+  margin-top: 2%;
 }
 
 .payment-window {
@@ -672,6 +680,10 @@
 .html-embed-2 {
   position: relative;
   display: none;
+}
+
+.free-trial {
+  margin-top: 3%;
 }
 
 html.w-mod-js *[data-ix="load-to-left"] {
@@ -941,13 +953,14 @@ html.w-mod-js *[data-ix="scroll-to-top-3"] {
     font-size: 20px;
   }
   .left-column {
-    padding-right: 10%;
-    padding-left: 10%;
+    padding-right: 5%;
+    padding-left: 5%;
     font-size: 18px;
   }
   .paragraph-3 {
     margin-right: 0%;
     margin-bottom: 5%;
+    padding-right: 0%;
     font-family: proxima-nova, sans-serif;
     font-size: 16px;
     font-weight: 300;
