@@ -998,6 +998,19 @@ html.w-mod-js *[data-ix="scroll-to-top-3"] {
   .footnote {
     font-size: 8px;
   }
+  .version-text {
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+  .version-text.free {
+    margin-top: 3%;
+  }
+  .price-info.free {
+    font-size: 16px;
+  }
+  .buy-now.free {
+    margin-top: 5%;
+  }
   .payment-window {
     margin-bottom: 5%;
   }
@@ -1010,6 +1023,10 @@ html.w-mod-js *[data-ix="scroll-to-top-3"] {
     font-size: 8px;
     font-weight: 300;
     text-align: center;
+  }
+  .div-block-11 {
+    margin-top: 10%;
+    margin-bottom: 10%;
   }
 }
 
